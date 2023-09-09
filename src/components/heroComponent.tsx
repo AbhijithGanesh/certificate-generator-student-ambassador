@@ -16,9 +16,11 @@ export default function HeroComponent(): JSX.Element {
             <img src="/mlsa.png" className="w-96"></img>
         </section>
         <section className="flex justify-between items-center gap-4">
-            <button className="bg-secondary text-white font-bold text-2xl rounded-md px-10 py-2 border-[1px] border-primary hover:shadow-sm hover:shadow-tertiary tracking-tighter">
-                Try it out!
-            </button>
+            <a href="./generate">
+                <button className="bg-secondary text-white font-bold text-2xl rounded-md px-10 py-2 border-[1px] border-primary hover:shadow-sm hover:shadow-tertiary tracking-tighter">
+                    Try it out!
+                </button>
+            </a>
         </section>
       </section>
     </>
